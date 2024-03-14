@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.search-box {
+    border-radius: 6px;
+    margin: 1rem auto;
+    background: black;
+}
+
+.search-box-white{
+    border-radius: 6px;
+    margin: 1rem auto;
+    background: white;
+}
+
+.srch {
+    position: absolute;
+    left: 7px;
+}
+
+.search-input {
+    height: 50px;
+    outline: none;
+    border: 0.5px solid #fff;
+    border-radius: 5px;
+}
+.search-input-white {
+    height: 50px;
+    outline: none;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    color: black;
+}
+
+
+.search-input:focus {
+    border: 2px solid #fff;
+}
+
+.search-input-white:focus {
+    border: 2px solid black;
+}
+
+.mainImg {
+    border-radius: 5px;
+    box-shadow: 1px 0px 4px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 1px 0px 4px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 1px 0px 4px 0px rgba(255, 255, 255, 0.75);
+}
+
+.mainImg-white{
+    border-radius: 5px;
+    box-shadow: 1px 0px 4px 0px rgba(19, 18, 18, 0.75);
+    -webkit-box-shadow: 1px 0px 4px 0px rgba(19, 18, 18, 0.75);
+    -moz-box-shadow: 1px 0px 4px 0px rgba(19, 18, 18, 0.75);
+
+}
