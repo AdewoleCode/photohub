@@ -5,13 +5,12 @@ import { IoLogoGithub } from "react-icons/io";
 import { UseTheme } from '../utils/useTheme';
 
 
-type Props = {}
 
-const Navbar = (props: Props) => {
+
+const Navbar = () => {
     const { isDarkMode, setIsDarkMode } = UseTheme()
 
 
-    // 16:37min
     return (
         <div className='max-w-4xl mx-auto py-6 flex justify-between align-center  dark:bg-white dark:border-zinc-700'>
             <h1 className='text-3xl dark:text-black'>Image gallery</h1>
@@ -26,12 +25,6 @@ const Navbar = (props: Props) => {
 
                 }
             </span>
-            {/* <a href="">
-                    <SiSimilarweb className='nav-icon w-[24px] h-[24px] dark:text-white' />
-                </a>
-                <a href="">
-                    <IoLogoGithub className='nav-icon w-[29px] h-[29px] dark:text-white' />
-                </a> */}
         </div>
     )
 }
