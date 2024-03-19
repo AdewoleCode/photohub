@@ -26,7 +26,7 @@ export default function Home() {
 
   const apiKey = process.env.NEXT_PUBLIC_IMAGE_API
 
-  const unsplashApi = `https://api.unsplash.com/search/photos?query=${searchQuery || 'animals'}&per_page=12&client_id=${apiKey}`
+  const unsplashApi = `https://api.unsplash.com/search/photos?query=${searchQuery || 'animals'}&per_page=48&client_id=${apiKey}`
 
   const { isPending, error, data, refetch } = useQuery<ImageSearchResult>({
 
